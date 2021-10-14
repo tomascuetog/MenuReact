@@ -14,10 +14,10 @@
 }
 
 .AppNavBar {
-  
+  background-color: grey;
   display: grid;
-  grid-template-columns: 200px 200px 200px 200px;
-  grid-template-rows: 800px;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 50px;
   grid-template-areas: "Inicio Servicios Nosotros Contacto";
 }
 

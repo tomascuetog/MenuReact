@@ -1,15 +1,21 @@
 import './App.css';
 import { NavBar } from './components/Navbar';
-
-
+import { CartWidget } from './components/CartWidget';
+import { ItemListContainer } from './components/ItemListContainer';
 
 function App() {
   return (
+    
     <div className="App">
-      <header className="App-header">
+
       <NavBar />
+  	  <CartWidget />
+      <ItemListContainer /> 
+      <header className="App-header">
+      <p>Prueba</p>
       </header>
     </div>
+    
   );
 }
 
