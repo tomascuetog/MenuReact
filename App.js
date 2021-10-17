@@ -2,6 +2,7 @@ import './App.css';
 import { NavBar } from './components/Navbar';
 import { CartWidget } from './components/CartWidget';
 import { ItemListContainer } from './components/ItemListContainer';
+import { Counter } from './components/Counter';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <NavBar />
   	  <CartWidget />
       <ItemListContainer /> 
+      <Counter />
       <header className="App-header">
       <p>Prueba</p>
       </header>
