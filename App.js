@@ -4,6 +4,7 @@ import { CartWidget } from './components/CartWidget';
 import { ItemListContainer } from './components/ItemListContainer';
 import { Counter } from './components/Counter';
 
+
 function App() {
   return (
     
@@ -15,7 +16,7 @@ function App() {
       <Counter />
       <header className="App-header">
       <p>Prueba</p>
-      </header>
+     </header>
     </div>
     
   );
